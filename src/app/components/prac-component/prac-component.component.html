@@ -1,0 +1,23 @@
+<input type="text" value="abc" id="input1"/>
+<table>
+  <thead>
+    <tr>
+      <th>Employee Details</th>
+    </tr>
+  </thead>
+
+<tbody>
+  <tr>
+    <td>First Name</td>
+    <td>{{firstName| employeeTitle:gender}}</td>
+  </tr>
+  <tr>
+    <td>Last Name</td>
+    <td>{{lastName}}</td>
+  </tr>
+  <tr>
+    <td>Number</td>
+    <td>{{random | currency:'USD':true:'1.3-6'}}</td>
+  </tr>
+  </tbody>
+</table>
